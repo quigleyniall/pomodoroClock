@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pomodoro Clock</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="app.css">
+<body>
+<audio id="buzzer" src="http://gravyboat.tripod.com/sound/pity.wav" type="audio/mpeg"></audio>
+<audio id="buzzer1" src="http://gravyboat.tripod.com/sound/workwithfool.wav" type="audio/mpeg"></audio>
+
+<div class="text-center">
+    <h1>Pomodoro Clock</h1>
+    <h3>Quigley says "Get To Work Fool"</h3>
+
+    <div class="timediv">
+        <h1 id="title1">Session Time</h1>
+        <a href="#" class="btn btn-primary" id="minus5Clock">-</a>
+        <h2 id="timeType"></h2>
+        <h2 id="num">5</h2>
+        <a href="#" class="btn btn-primary" id="add5Clock">+</a>
+        <a href="#" class="btn btn-primary" id="reset">Reset</a>
+    </div>
+    <div id="breakDiv">
+        <h1 id="title2">Break Time</h1>
+        <a href="#" class="btn btn-primary" id="minus5Break">-</a>
+        <h2 id="breakNum">5</h2>
+        <a href="#" class="btn btn-primary" id="add5Break">+</a>
+    </div>
+    <a href="#" class="btn btn-primary" id="start">Start</a>
+</div>
+</body>
+</html>
